@@ -1,5 +1,7 @@
 # layoffs-data-cleanup
 Project to clean and standardize layoffs data
+-- In this project, I cleaned and prepared the data by removing duplicates, standardizing values, handling null values, and deleting unnecessary columns and rows.
+
 -- Data Cleaning
 
 SELECT * 
@@ -239,3 +241,4 @@ FROM layoffs_staging2;
 -- Remove unnecessary column 'row_num'
 ALTER TABLE layoffs_staging2
 DROP COLUMN row_num;
+
